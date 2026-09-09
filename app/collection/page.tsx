@@ -1,5 +1,5 @@
 import { getAllProducts } from "@/lib/products";
-import ProductCard from "@/components/ProductCard";
+import CollectionFilter from "@/components/CollectionFilter";
 
 export const revalidate = 60;
 
@@ -22,11 +22,7 @@ export default async function CollectionPage() {
           No products yet.
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-px border-b border-white/10 bg-white/10 sm:grid-cols-2 md:grid-cols-3">
-          {products.map((p) => (
-            <ProductCard key={p.id} product={p} />
-          ))}
-        </div>
+        <CollectionFilter products={products} />
       )}
     </main>
   );
