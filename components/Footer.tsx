@@ -7,7 +7,7 @@ export default function Footer() {
           Shipping
         </a>
         <a href="#" className="hover:text-red">
-          Contact
+          Feedback
         </a>
         <a href="/admin" className="hover:text-red">
           Admin
