@@ -39,7 +39,7 @@ export default async function HomePage() {
         </div>
         <div className="relative flex items-end border-l border-white/10 bg-gradient-to-br from-bg-alt-2 to-bg">
           <div className="font-display select-none text-[min(28vw,260px)] leading-none text-fg/[0.08]">
-            01
+            TR
           </div>
         </div>
       </section>
