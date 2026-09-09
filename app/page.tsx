@@ -44,7 +44,7 @@ export default async function HomePage() {
             alt="Treutis"
             width={1419}
             height={271}
-            className="h-auto w-full max-w-[420px]"
+            className="h-auto w-full max-w-[420px] animate-logo-intro"
           />
         </div>
       </section>
