@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllProducts } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
@@ -37,10 +38,14 @@ export default async function HomePage() {
             </Link>
           </div>
         </div>
-        <div className="relative flex items-end border-l border-white/10 bg-gradient-to-br from-bg-alt-2 to-bg">
-          <div className="font-display select-none text-[min(28vw,260px)] leading-none text-fg/[0.08]">
-            TR
-          </div>
+        <div className="relative flex items-center justify-center bg-white p-10">
+          <Image
+            src="/treutis-logo-white.png"
+            alt="Treutis"
+            width={1419}
+            height={271}
+            className="h-auto w-full max-w-[420px]"
+          />
         </div>
       </section>
 
